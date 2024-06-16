@@ -1,6 +1,7 @@
 .idea
 node_modules
 .env
+yarn-error.log
 
 # Hardhat files
 /cache
@@ -16,3 +17,6 @@ node_modules
 
 # Hardhat Ignition default folder for deployments against a local node
 ignition/deployments/chain-31337
+
+# OpenZeppelin Upgradeable cache
+.openzeppelin
